@@ -16,6 +16,11 @@
 		"host": "localhost",
 		"username": "mantis1",
 		"password": "mantis1"
+	},
+	"james": {
+		"host": "localhost",
+		"port": 4555,
+		"username": "root",
+		"password": "root"
 	}
-
 }

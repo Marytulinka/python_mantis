@@ -23,7 +23,7 @@ class ProjectHelper:
 
     def open_project_page(self):
         wd = self.app.wd
-        wd.find_element_by_css_selector("a[href='/mantisbt-1.2.20/manage_overview_page.php']").click()
+        wd.find_element_by_link_text("Manage").click()
         wd.find_element_by_link_text("Manage Projects").click()
 
     def select_project_by_id(self, id):
