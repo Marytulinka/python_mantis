@@ -5,7 +5,7 @@ def test_add_new_project(app, config):
     username = config['webadmin']['username']
     password = config['webadmin']['password']
     old_project = app.soap.mc_projects(username, password)
-    project = Project(name="project_name")
+    project = Project(name="project_name_")
     if len(old_project) != 0:
         app.project.open_project_page()
         app.project.push_create_button()
